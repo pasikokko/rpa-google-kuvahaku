@@ -5,7 +5,7 @@ Resource    imageSearch.robot
 
 *** Tasks ***
 Get Related Images
-    [Setup]    Open Available Browser
+    [Setup]    Open Available Browser    options=add_argument("--lang=fi")
     FOR    ${id}    IN RANGE    100    110
         Get Images For a Person    Person ${id}    https://i.pravatar.cc/400?u=${id}
     END

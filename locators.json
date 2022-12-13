@@ -4,28 +4,28 @@
         "source": "https://www.google.fi/",
         "strategy": "xpath",
         "type": "browser",
-        "value": "//img[@alt='Camera search']"
+        "value": "//img[@alt='Kamerahaku']"
     },
     "CookiesAcceptAll": {
         "screenshot": ".images\\cookiesacceptall-screenshot.png",
         "source": "https://www.google.fi/",
         "strategy": "xpath",
         "type": "browser",
-        "value": "//*[text()='Accept all']"
+        "value": "//*[text()='Hyväksy kaikki']"
     },
     "Find Image Source": {
         "screenshot": ".images\\find-image-source-screenshot.png",
         "source": "https://lens.google.com/search?p=AcLkwR0IxJomULWXxjd1AafViz0m5yLxYbPjXm0WGn8GcZ58AUx4tdgopbalK4aQy9jvSulAO2PCP9BfX1E3QkMS-4wz2nIzFTSrtU5iDspCCQQ-paQGmBPa7dhJseRpkMFGI4fIaBX5r_lfc_BQLCzQsGSYih8N_QyxS_Tmu6mg0hlwIiB9W-ujGkjwHkLw5Npfs8zXAhwKUx1JFmRkiEMIGpkaDp9XeKX5zdneKwPYS2VlRZFODz_CFg%3D%3D&ep=gsbubu&hl=en-FI&re=df#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKRGt6Wm1GbVlUaG1MVEF4TW1ZdE5EZ3lZUzFpTlRabExXRmlZVEpoWWpOak16Um1NaElmTURjMGVFWlRhRUo0Tm05bU5FaEZlRmhpTFdJNVpVSnlVMlJEZUZKNFp3PT0iXQ==",
         "strategy": "xpath",
         "type": "browser",
-        "value": "//a[contains(@aria-label, 'Find image')]"
+        "value": "//a[contains(@aria-label, 'Etsi kuvan lähde')]"
     },
     "ImageLinkInput": {
         "screenshot": ".images\\imagelinkinput-screenshot.png",
         "source": "https://www.google.fi/",
         "strategy": "xpath",
         "type": "browser",
-        "value": "//input[@placeholder=\"Paste image link\"]"
+        "value": "//input[@placeholder=\"Liitä linkki kuvaan\"]"
     },
     "Images": {
         "screenshot": ".images\\images-screenshot.png",
@@ -39,6 +39,6 @@
         "source": "https://www.google.com/search?tbs=sbi:AMhZZisN8Mlk1uTF8S3Z4KOcYJsp_1Y59Meaf4PgNS-Ignq0NgHMOkeOs7c3MBd0ILk96jfAE8Lg_1hSSTsQ6UFVcx37cESDSxI9VDfGVOp0PhnLgInVoaNV1x1o4021N9pihFY5-1TjewEMrY5DHKTU-rb2panQfnaA",
         "strategy": "xpath",
         "type": "browser",
-        "value": "//h3[contains(.,'Visually similar images')]"
+        "value": "//h3[contains(.,'Samannäköisiä kuvia')]"
     }
 }
