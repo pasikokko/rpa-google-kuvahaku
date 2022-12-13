@@ -1,0 +1,11 @@
+tasks:
+  Get Related Images:
+    robotTaskName: Get Related Images
+condaConfigFile: conda.yaml
+ignoreFiles:
+- .gitignore
+artifactsDir: output
+PATH:
+- .
+PYTHONPATH:
+- .
